@@ -1,0 +1,37 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Terraform variable files that may contain sensitive information
+*.tfvars
+*.tfvars.json
+
+# Override files (for local configuration)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Example .tf files (for documentation or templates)
+
+# Plan output files (can be large and are not needed in the repo)
+*.tfplan
+
+# Providers downloaded by Terraform
+.terraformrc
+terraform.rc
+
+# Lock files
+*.terraform.lock.hcl
+
+# Sensitive output files
+# Uncomment this if you output sensitive data (like credentials) to files
+# *.txt
+# *.log
+
